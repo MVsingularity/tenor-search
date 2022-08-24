@@ -3,9 +3,21 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MVsingularity/tenor-search.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MVsingularity/tenor-search/issues"
+  },
+  "homepage": "https://github.com/MVsingularity/tenor-search#readme"
 }
