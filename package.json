@@ -6,7 +6,9 @@
   "dependencies": {
     "express": "^4.18.1",
     "express-handlebars": "^6.0.6",
-    "tenorjs": "^1.0.10"
+    "js": "^0.1.0",
+    "tenor": "^1.0.1",
+    "tenorjs": "file:node_modules/tenorjs"
   },
   "devDependencies": {},
   "scripts": {

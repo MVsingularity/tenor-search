@@ -10,6 +10,8 @@ const Tenor = require("tenorjs").client({
 
 const exphbs = require('express-handlebars');
 
+app.use(express.static('public'));
+
 app.engine('handlebars', exphbs.engine({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 
